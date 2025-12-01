@@ -1,0 +1,87 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #555;
+}
+
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.skills-grid span {
+    background: #e7e7e7;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+}
+
+.project-card h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.project-card p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #666;
+    font-size: 14px;
+}
